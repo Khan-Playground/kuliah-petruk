@@ -26,7 +26,7 @@ main(){
 		cout<<" ]";
 	}else{
 		cout<<"[ ";
-		for(n=9; n>=3; n=n-m){
+		for(n=f; n>=l; n=n-m){
 			cout<<" "<<n<<" ";
 		}
 		cout<<" ]";
