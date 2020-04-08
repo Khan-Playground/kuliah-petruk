@@ -20,13 +20,13 @@ main(){
 	
 	if(f < l){
 		cout<<"[ ";
-		for(n=f; n<=l; n=n+5){
+		for(n=f; n<=l; n=n+m){
 			cout<<" "<<n<<" ";
 		}
 		cout<<" ]";
 	}else{
 		cout<<"[ ";
-		for(n=9; n>=3; n=n-5){
+		for(n=9; n>=3; n=n-m){
 			cout<<" "<<n<<" ";
 		}
 		cout<<" ]";
