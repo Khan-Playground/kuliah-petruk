@@ -20,18 +20,14 @@ main(){
 	
 	if(f < l){
 		cout<<"[ ";
-		for(n=f; n<=l; n++){
-			if(n%m == 0){
-				cout<<" "<<n<<" ";
-			}
+		for(n=f; n<=l; n=n+5){
+			cout<<" "<<n<<" ";
 		}
 		cout<<" ]";
 	}else{
 		cout<<"[ ";
-		for(n=9; n>=3; n--){
-			if(n%m == 0){
-				cout<<" "<<n<<" ";
-			}
+		for(n=9; n>=3; n=n-5){
+			cout<<" "<<n<<" ";
 		}
 		cout<<" ]";
 	}
